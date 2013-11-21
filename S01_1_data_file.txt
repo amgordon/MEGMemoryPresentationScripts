@@ -1,0 +1,10 @@
+
+----------------------------------------------------------------------------
+Started at: 21-Nov-2013 11:27:12
+
+START	1253.491		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	condition	item	itempos	itemcolor	targetloc
+KEY	g	5.0491	5.1558	Paragraph	Press any key to go on.
+KEY	g	1.623	7.0838	Paragraph	Press any key to start.
+KEY	g	2.5313	58.4012	Paragraph	Press any key to start.
+KEY	g	3.8329	116.0171	Paragraph	Press any key to start.

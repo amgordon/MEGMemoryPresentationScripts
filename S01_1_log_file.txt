@@ -1,0 +1,93 @@
+
+----------------------------------------------------------------------------
+Started at: 21-Nov-2013 11:27:12
+
+START	1253.491		0
+Display	Stimulus	Tag	Time	condition	item	itempos	itemcolor	targetloc
+STIM	Paragraph	Press any key to go on.	0.10665
+STIM	Blank	Blank	5.1765
+STIM	Paragraph	Press any key to start.	5.4608
+STIM	Blank	Blank	7.0972
+STIM	Matrix	flag	7.3806
+STIM	Text	mint	8.3651
+STIM	Matrix	flag	8.8492
+STIM	Matrix	flag	11.3335
+STIM	Text	ballet	12.3177
+STIM	Matrix	flag	12.8019
+STIM	Matrix	flag	15.2853
+STIM	Text	pigeon	16.2704
+STIM	Matrix	flag	16.7547
+STIM	Matrix	flag	19.2424
+STIM	Text	mope	20.2393
+STIM	Matrix	flag	20.7237
+STIM	Matrix	flag	23.2111
+STIM	Text	police	24.1957
+STIM	Matrix	flag	24.6921
+STIM	Matrix	flag	27.18
+STIM	Text	freeze	28.1649
+STIM	Matrix	flag	28.649
+STIM	Matrix	flag	31.1324
+STIM	Text	eclipse	32.1171
+STIM	Matrix	flag	32.6012
+STIM	Matrix	flag	35.0846
+STIM	Text	squirrel	36.0694
+STIM	Matrix	flag	36.5537
+STIM	Matrix	flag	39.0413
+STIM	Text	swarm	40.0385
+STIM	Matrix	flag	40.5228
+STIM	Matrix	flag	43.0102
+STIM	Text	proud	43.9951
+STIM	Matrix	flag	44.4794
+STIM	Matrix	flag	46.9628
+STIM	Text	short 	47.9476
+STIM	Matrix	flag	48.4319
+STIM	Matrix	flag	50.9152
+STIM	Text	x-ray	51.8999
+STIM	Matrix	flag	52.3842
+STIM	Matrix	flag	54.8843
+STIM	Paragraph	Press any key to start.	55.8699
+STIM	Blank	Blank	58.4074
+STIM	Matrix	flag	58.6908
+STIM	Text	proud	59.6887
+STIM	Matrix	flag	60.1721
+STIM	Matrix	flag	62.6597
+STIM	Text	swarm	63.6451
+STIM	Matrix	flag	64.1293
+STIM	Matrix	flag	66.6126
+STIM	Text	squirrel	67.5977
+STIM	Matrix	flag	68.081
+STIM	Matrix	flag	70.5644
+STIM	Text	police	71.549
+STIM	Matrix	flag	72.0333
+STIM	Matrix	flag	74.5216
+STIM	Text	eclipse	75.5191
+STIM	Matrix	flag	76.0025
+STIM	Matrix	flag	78.4899
+STIM	Text	freeze	79.4757
+STIM	Matrix	flag	79.9713
+STIM	Matrix	flag	82.4588
+STIM	Text	short 	83.4438
+STIM	Matrix	flag	83.928
+STIM	Matrix	flag	86.4113
+STIM	Text	pigeon	87.3962
+STIM	Matrix	flag	87.8805
+STIM	Matrix	flag	90.3638
+STIM	Text	mope	91.3486
+STIM	Matrix	flag	91.8328
+STIM	Matrix	flag	94.3202
+STIM	Text	ballet	95.3186
+STIM	Matrix	flag	95.8019
+STIM	Matrix	flag	98.2899
+STIM	Text	x-ray	99.2742
+STIM	Matrix	flag	99.7709
+STIM	Matrix	flag	102.2583
+STIM	Text	mint	103.2433
+STIM	Matrix	flag	103.7275
+STIM	Matrix	flag	106.2109
+STIM	Matrix	flag	107.1956
+STIM	Paragraph	Press any key to start.	112.1841
+STIM	Blank	Blank	116.0194
+STIM	Matrix	flag	116.3032
+STIM_PREPARE	Matrix	flag	-1254.491
+STIM	Text	pigeon	117.2876
+STIM	Matrix	flag	121.3073

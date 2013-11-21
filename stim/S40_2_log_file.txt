@@ -1,0 +1,16 @@
+
+----------------------------------------------------------------------------
+Started at: 24-Jul-2013 12:00:13
+
+START	406715.1894		0
+Display	Stimulus	Tag	Time	condition	item	itempos	itemcolor	targetloc
+STIM	Paragraph	Press any key to go on.	1.5295
+STIM	Blank	Blank	3.0177
+
+----------------------------------------------------------------------------
+Started at: 24-Jul-2013 12:05:01
+
+START	407003.5446		0
+Display	Stimulus	Tag	Time	condition	item	itempos	itemcolor	targetloc
+STIM	Paragraph	Press any key to go on.	1.6121
+STIM	Blank	Blank	3.8845

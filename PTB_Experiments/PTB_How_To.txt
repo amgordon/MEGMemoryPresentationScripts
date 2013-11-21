@@ -1,0 +1,11 @@
+To run these scripts, you need to install a software package called PTBWrapper. This package relies upon psychtoolbox (http://psychtoolbox.org/), and so this will have to be installed as well. 
+
+1. Before trying to install either, check to see if they are already installed. To check for psychtoolbox, type PsychtoolboxVersion at the the command prompt in matlab. If it does not error, skip the instructions here to install it. Next, type PTBWrapperVersion at the command prompt. If it does not error, you can proceed directly to running the experiments.
+	- Periodically, it is a good idea to update both software packages. To do so, just type UpdatePsychtoolbox or UpdatePTBWrapper.
+
+
+2. To install psychtoolbox, make sure that your matlab current folder has a copy of DownloadPsychtoolbox.m in it (hopefully it's in the same folder as this file). At the command prompt, type DownloadPsychtoolbox. Read the instructions that appear in the command window. Accept any certificates, when asked. Once psychtoolbox has been downloaded by this function, restart matlab. 
+	- Alternatively, you can go to http://psychtoolbox.org/ and follow the installation instructions there.
+
+3. PTBWrapper is install in the same way. Make sure your current folder contains a copy of DownloadPTBWrapper.m, and type DownloadPTBWrapper at the prompt. Once these files have been downloaded, restart matlab again.
+	- If you do not have a copy of DownloadPTBWrapper.m, one can be found in the download section here: http://code.google.com/p/ptbwrapper/

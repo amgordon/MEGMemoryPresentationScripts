@@ -1,0 +1,27 @@
+
+----------------------------------------------------------------------------
+Started at: 24-Jul-2013 11:57:56
+
+START	406578.1326		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	condition	item	itempos	itemcolor	targetloc
+KEY	l	3.9817	5.524	Paragraph	Press any key to go on.
+
+----------------------------------------------------------------------------
+Started at: 24-Jul-2013 12:00:08
+
+START	406710.4499		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	condition	item	itempos	itemcolor	targetloc
+KEY	k	1.0037	2.5405	Paragraph	Press any key to go on.
+
+----------------------------------------------------------------------------
+Started at: 24-Jul-2013 12:04:57
+
+START	406998.987		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	condition	item	itempos	itemcolor	targetloc
+KEY	d	0.8301	2.3722	Paragraph	Press any key to go on.
+
+----------------------------------------------------------------------------
+Started at: 24-Jul-2013 12:08:57
+
+START	407239.5807		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	condition	item	itempos	itemcolor	targetloc

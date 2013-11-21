@@ -1,0 +1,184 @@
+
+----------------------------------------------------------------------------
+Started at: 20-Mar-2012 23:15:56
+
+START	241878.2389		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	block_type	stim_list	id	answer	prime	target
+KEY	a	0.52268	0.85122		Paragraph	 
+KEY	a	0.93303	1.8123		Paragraph	Press any key to begin.
+KEY	sound	0.84889	4.3525		Text	ofken	experiment	Stim_List_Prime.txt	19	nonword	OFKEN	ofken
+KEY	sound	0.94426	7.1201		Text	some	experiment	Stim_List_Prime.txt	8	word	SOME	some
+KEY	sound	1.1386	9.8365		Text	now	experiment	Stim_List_Prime.txt	11	word	NOW	now
+
+----------------------------------------------------------------------------
+Started at: 20-Mar-2012 23:16:42
+
+START	241923.692		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	block_type	stim_list	id	answer	prime	target
+KEY	a	0.52136	0.86069		Paragraph	 
+KEY	a	0.41979	1.3099		Paragraph	Press any key to begin.
+KEY	2	0.68782	3.7016		Text	nlockt	experiment	Stim_List_Prime.txt	21	nonword	NLOCKT	nlockt
+KEY	1	1.6247	7.0135		Text	is	experiment	Stim_List_Prime.txt	2	word	IS	is
+TIMEOUT	TIMEOUT	-1	-241924.692		Text	blarck	experiment	Stim_List_Prime.txt	18	nonword	BLARCK	blarck
+
+----------------------------------------------------------------------------
+Started at: 20-Mar-2012 23:18:11
+
+START	242013.2384		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	block_type	stim_list	id	answer	prime	target
+KEY	a	0.58856	0.89337	Paragraph	 
+KEY	a	2.5176	3.439	Paragraph	Press any key to begin.
+KEY	2	2.4909	7.6225	Text	now	experiment	Stim_List_Prime.txt	11	word	NOW	now
+KEY	1	0.5729	10.0471	Text	tnurb	experiment	Stim_List_Prime.txt	17	nonword	TNURB	tnurb
+TIMEOUT	TIMEOUT	-1	-242014.2384	Text	with	experiment	Stim_List_Prime.txt	6	word	WITH	with
+
+----------------------------------------------------------------------------
+Started at: 20-Mar-2012 23:19:59
+
+START	242121.3831		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	block_type	stim_list	id	answer	prime	target
+KEY	a	1.001	1.303	Paragraph	 
+KEY	a	0.34217	1.6722	Paragraph	Press any key to begin.
+TIMEOUT	TIMEOUT	-1	5.3321	Text	blarck	experiment	Stim_List_Prime.txt	18	nonword	BLARCK	blarck
+
+----------------------------------------------------------------------------
+Started at: 20-Mar-2012 23:20:57
+
+START	242178.5919		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	block_type	stim_list	id	answer	prime	target
+KEY	a	1.1156	1.456	Paragraph	 
+KEY	a	0.34536	1.8255	Paragraph	Press any key to begin.
+TIMEOUT	TIMEOUT	-1	3.6993	Text	is	experiment	Stim_List_Prime.txt	2	word	IS	is
+TIMEOUT	TIMEOUT	-1	5.7014	Text	now	experiment	Stim_List_Prime.txt	11	word	NOW	now
+
+----------------------------------------------------------------------------
+Started at: 20-Mar-2012 23:24:00
+
+START	242362.4929		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	block_type	stim_list	id	answer	prime	target
+KEY	a	1.9256	2.2608	Paragraph	 
+KEY	a	0.36902	2.6621	Paragraph	Press any key to begin.
+TIMEOUT	TIMEOUT	-1	-242363.4929	Text	nlockt	experiment	Stim_List_Prime.txt	21	nonword	NLOCKT	nlockt
+TIMEOUT	TIMEOUT	-1	-242363.4929	Text	this	experiment	Stim_List_Prime.txt	1	word	THIS	this
+TIMEOUT	TIMEOUT	-1	-242363.4929	Text	test	experiment	Stim_List_Prime.txt	4	word	TEST	test
+KEY	2	0.11476	10.4082	Text	and	experiment	Stim_List_Prime.txt	7	word	AND	and
+TIMEOUT	TIMEOUT	-1	-242363.4929	Text	some	experiment	Stim_List_Prime.txt	8	word	SOME	some
+
+----------------------------------------------------------------------------
+Started at: 20-Mar-2012 23:25:38
+
+START	242460.167		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	block_type	stim_list	id	answer	prime	target
+KEY	a	0.34799	-242410.167      -242408.167      -242410.167      -242408.167      -242406.167      -242412.167      -242414.167      -242404.167      -242407.167      -242412.167      -242408.167	Paragraph	 
+KEY	a	0.39843	-242410.167      -242408.167      -242410.167      -242408.167      -242406.167      -242411.167      -242414.167      -242410.167      -242406.167      -242405.167      -242403.167	Paragraph	Press any key to begin.
+TIMEOUT	TIMEOUT	-1	-242415.167      -242411.167	Text	test	experiment	Stim_List_Prime.txt	4	word	TEST	test
+TIMEOUT	TIMEOUT	-1	-242415.167      -242411.167	Text	words	experiment	Stim_List_Prime.txt	10	word	WORDS	words
+TIMEOUT	TIMEOUT	-1	-242415.167      -242411.167	Text	we	experiment	Stim_List_Prime.txt	12	word	WE	we
+TIMEOUT	TIMEOUT	-1	-242415.167      -242411.167	Text	second	experiment	Stim_List_Prime.txt	16	word	SECOND	second
+
+----------------------------------------------------------------------------
+Started at: 20-Mar-2012 23:28:20
+
+START	242622.4958		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	block_type	stim_list	id	answer	prime	target
+KEY	a	0.78174	1.1096	Paragraph	 
+KEY	a	0.31926	1.4464	Paragraph	Press any key to begin.
+TIMEOUT	TIMEOUT	-1	-1	Text	and	experiment	Stim_List_Prime.txt	7	word	AND	and
+TIMEOUT	TIMEOUT	-1	-1	Text	nlockt	experiment	Stim_List_Prime.txt	21	nonword	NLOCKT	nlockt
+TIMEOUT	TIMEOUT	-1	-1	Text	test	experiment	Stim_List_Prime.txt	4	word	TEST	test
+KEY	2	0.059451	8.9569	Text	tnurb	experiment	Stim_List_Prime.txt	17	nonword	TNURB	tnurb
+TIMEOUT	TIMEOUT	-1	-1	Text	worrfn	experiment	Stim_List_Prime.txt	22	nonword	WORRFN	worrfn
+
+----------------------------------------------------------------------------
+Started at: 28-Mar-2012 15:13:00
+
+START	21977.7859		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	block_type	stim_list	id	answer	prime	target
+KEY	a	0.68999	1.0434	Paragraph	 
+KEY	a	0.39331	1.4632	Paragraph	Press any key to begin.
+KEY	sound	1.1715	4.3251	Text	nlockt	experiment	Stim_List_Prime.txt	21	nonword	NLOCKT	nlockt
+KEY	sound	2.0936	8.311	Text	are	experiment	Stim_List_Prime.txt	13	word	ARE	are
+
+----------------------------------------------------------------------------
+Started at: 28-Mar-2012 15:22:10
+
+START	22527.7278		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	block_type	stim_list	id	answer	prime	target
+KEY	a	0.89101	1.2211	Paragraph	 
+KEY	a	0.39789	1.6466	Paragraph	Press any key to begin.
+KEY	sound	2.4603	5.8009	Text	this	experiment	Stim_List_Prime.txt	1	word	THIS	this
+KEY	sound	1.1388	8.8514	Text	starting	experiment	Stim_List_Prime.txt	14	word	STARTING	starting
+KEY	sound	0.8184	11.6042	Text	nlockt	experiment	Stim_List_Prime.txt	21	nonword	NLOCKT	nlockt
+
+----------------------------------------------------------------------------
+Started at: 28-Mar-2012 15:24:18
+
+START	22655.2251		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	block_type	stim_list	id	answer	prime	target
+KEY	a	1.7478	2.0859	Paragraph	 
+KEY	a	0.90204	2.9965	Paragraph	Press any key to begin.
+KEY	sound	2.0471	6.7471	Text	some	experiment	Stim_List_Prime.txt	8	word	SOME	some
+KEY	sound	1.2836	10.009	Text	this	experiment	Stim_List_Prime.txt	1	word	THIS	this
+KEY	sound	0.11371	11.931	Text	tnurb	experiment	Stim_List_Prime.txt	17	nonword	TNURB	tnurb
+
+----------------------------------------------------------------------------
+Started at: 28-Mar-2012 15:24:45
+
+START	22683.0249		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	block_type	stim_list	id	answer	prime	target
+KEY	a	0.70664	1.0102	Paragraph	 
+KEY	a	1.6064	2.6428	Paragraph	Press any key to begin.
+KEY	sound	3.0634	7.3907	Text	starting	experiment	Stim_List_Prime.txt	14	word	STARTING	starting
+KEY	sound	0.043368	9.4157	Text	are	experiment	Stim_List_Prime.txt	13	word	ARE	are
+
+----------------------------------------------------------------------------
+Started at: 28-Mar-2012 15:26:03
+
+START	22760.2677		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	block_type	stim_list	id	answer	prime	target
+KEY	a	1.2139	1.5527	Paragraph	 
+KEY	a	1.0706	2.6257	Paragraph	Press any key to begin.
+KEY	sound	2.0396	6.3722	Text	with	experiment	Stim_List_Prime.txt	6	word	WITH	with
+
+----------------------------------------------------------------------------
+Started at: 28-Mar-2012 15:27:50
+
+START	22867.131		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	block_type	stim_list	id	answer	prime	target
+KEY	a	0.42364	0.72544	Paragraph	 
+KEY	a	0.68293	1.4171	Paragraph	Press any key to begin.
+KEY	sound	2.4937	5.6057	Text	tnurb	experiment	Stim_List_Prime.txt	17	nonword	TNURB	tnurb
+KEY	sound	1.1114	8.4853	Text	starting	experiment	Stim_List_Prime.txt	14	word	STARTING	starting
+
+----------------------------------------------------------------------------
+Started at: 28-Mar-2012 15:33:39
+
+START	23216.061		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	block_type	stim_list	id	answer	prime	target
+KEY	a	0.63707	0.96326	Paragraph	 
+KEY	a	0.34743	1.3245	Paragraph	Press any key to begin.
+KEY	sound	2.3202	5.3382	Text	nlockt	experiment	Stim_List_Prime.txt	21	nonword	NLOCKT	nlockt
+KEY	sound	1.6799	8.5921	Text	this	experiment	Stim_List_Prime.txt	1	word	THIS	this
+KEY	sound	2.2594	12.5633	Text	test	experiment	Stim_List_Prime.txt	4	word	TEST	test
+
+----------------------------------------------------------------------------
+Started at: 28-Mar-2012 15:34:14
+
+START	23251.2307		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	block_type	stim_list	id	answer	prime	target
+KEY	a	0.44657	0.77869	Paragraph	 
+KEY	a	0.34972	1.1317	Paragraph	Press any key to begin.
+KEY	sound	0.93083	3.7544	Text	list	experiment	Stim_List_Prime.txt	5	word	LIST	list
+KEY	sound	0.60735	6.8922	Text	now	experiment	Stim_List_Prime.txt	11	word	NOW	now
+
+----------------------------------------------------------------------------
+Started at: 28-Mar-2012 15:34:35
+
+START	23272.9909		0
+Response	Key	RT	Abs_RT	Stimulus	Tag	block_type	stim_list	id	answer	prime	target
+KEY	a	1.059	1.3579	Paragraph	 
+KEY	a	0.37535	1.7353	Paragraph	Press any key to begin.
+KEY	sound	0.88192	4.3086	Text	test	experiment	Stim_List_Prime.txt	4	word	TEST	test
+KEY	sound	2.2213	8.9232	Text	this	experiment	Stim_List_Prime.txt	1	word	THIS	this
+KEY	sound	0.87498	12.3203	Text	list	experiment	Stim_List_Prime.txt	5	word	LIST	list
+KEY	sound	0.72602	15.4155	Text	some	experiment	Stim_List_Prime.txt	8	word	SOME	some

@@ -1,0 +1,15 @@
+function [ list ] = blockAssigner( list, numblocks, itemsperblock, blockrow)
+%This function 
+%blockrow is the row number within the list that you want to contain the block
+%informaion
+%   Detailed explanation goes here
+
+for block = 1:numblocks
+    starttrial = itemsperblock*(block-1)+1;
+    lasttrial = starttrial+itemsperblock-1;
+    for trial = starttrial:lasttrial
+        list{blockrow,trial} = block;
+    end
+
+end
+
