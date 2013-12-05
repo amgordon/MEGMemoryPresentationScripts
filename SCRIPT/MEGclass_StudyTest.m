@@ -37,12 +37,12 @@ else
     debugmode = 0;
     BlankScreenDur = .25;
     RestDur = Inf;
-    StimDur = 3.0;
-    wordTime = 1.0;
+    StimDur = 3.5;
+    wordTime = 1.5;
     fixTime = 1.0;
     longfixTime = 5.0;
     FixDur = 1.5;
-    TestDur = 4;
+    TestDur = 5;
     TestLoop = 1;
     getReadyDur = 3;
     oddevenrepeats = 4;
@@ -210,7 +210,7 @@ end
 PTBDisplayPictures({'fix.jpg'}, {'center'}, {1}, {longfixTime}, 'flag');
  
 %% Test
-getReady = {['Get Ready: Test Block #' num2str(block)],'Face - Scene', 'Press any key to start.'};
+getReady = {['Get Ready: Test Block #' num2str(block)],'Face - Scene - Object', 'Press any key to start.'};
 PTBDisplayParagraph(getReady,{'center',30},{'any'});
 PTBDisplayBlank({.3},'Blank');
 PTBDisplayPictures({'fix.jpg'}, {'center'}, {1}, {fixTime}, 'flag');
@@ -254,7 +254,7 @@ end
 
 
 %% Validation 2AFC task
-getReady = {['Get Ready: Specific Test Block #' num2str(block)],'Face - Scene', 'Press any key to start.'};
+getReady = {['Get Ready: Specific Test Block #' num2str(block)],'Face - Scene - Object', 'Press any key to start.'};
 PTBDisplayParagraph(getReady,{'center',30},{'any'});
 PTBDisplayBlank({.3},'Blank');
 PTBDisplayPictures({'fix.jpg'}, {'center'}, {1}, {fixTime}, 'flag');
