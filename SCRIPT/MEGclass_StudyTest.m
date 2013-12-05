@@ -19,6 +19,7 @@ resolution=Screen('Resolution', screenNumber);
 scrsz = [1 1 resolution.width, resolution.height];
 coordsPicLeft = [scrsz(3)/2 - 120, 150 + scrsz(4)/2];
 coordsPicRight = [scrsz(3)/2 + 120, 150 + scrsz(4)/2];
+coords = {coordsPicLeft, coordsPicRight};
 
 %use this to debug the code
 if is_debugging
@@ -42,7 +43,7 @@ else
     fixTime = 1.0;
     longfixTime = 5.0;
     FixDur = 1.5;
-    TestDur = 5;
+    TestDur = 4;
     TestLoop = 1;
     getReadyDur = 3;
     oddevenrepeats = 4;
@@ -267,10 +268,11 @@ for Trial = thisBlock(1):thisBlock(end)
     word = theData.Validation.word{Trial}(3:end);
     picture = [theData.Validation.pic{Trial}(3:end) '.jpg'];
     altPicture = [theData.Validation.altPic{Trial}(3:end) '.jpg'];
+    picLatCond = theData.Validation.picLatCond(Trial);
     
     %PTBDisplayPictures({'box.jpg'}, {'center'}, {1}, {-1}, 'flag');
-    PTBDisplayPictures({picture}, {coordsPicLeft}, {1}, {-1}, 'flag');
-    PTBDisplayPictures({altPicture}, {coordsPicRight}, {1}, {-1}, 'flag');
+    PTBDisplayPictures({picture}, {coords{picLatCond}}, {1}, {-1}, 'flag');
+    PTBDisplayPictures({altPicture}, {coords{3-picLatCond}}, {1}, {-1}, 'flag');
     PTBDisplayText(word,{'center'},{TestDur}, channel, 0);
     trialOnset = GetSecs;
     

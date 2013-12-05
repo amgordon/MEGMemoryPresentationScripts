@@ -1,14 +1,9 @@
 function theData = MEGclass_StudyTest(thePath,SubjectNumber,block,saveName,isMEG,use_eyetracker,is_debugging)
 
-PTBSetTextColor([255 255 255]);
-PTBSetTextSize(30);
-onekey = KbName('1!'); %face
-twokey = KbName('2@'); %scene
-threekey = KbName('3#'); %object
 
 if isMEG
     boxNum = AG3getBoxNumber;  % buttonbox
-else % Mock scanner
+else 
     boxNum = AG3getKeyboardNumber;  % buttonbox
 end
 
@@ -42,8 +37,8 @@ else
     debugmode = 0;
     BlankScreenDur = .25;
     RestDur = Inf;
-    StimDur = 3.0;
-    wordTime = 1.0;
+    StimDur = 3.5;
+    wordTime = 1.5;
     fixTime = 1.0;
     longfixTime = 5.0;
     FixDur = 1.5;
@@ -92,12 +87,8 @@ global PTBWaitForKey;% Has 'width' and 'height' of current display in pixels
 
 %load in all the lists
 cd(stimlistdir);
-checkname = [saveName '.mat'];
-
-
 aL = load('allLists');
 theList = aL.allLists{SubjectNumber};
-
 theData = theList;
 
 cd(basedir);
@@ -135,7 +126,6 @@ if use_eyetracker
     PTBStartEyeTrackerRecording(['MB' SubjStr '_' num2str(iBlock)]);
 end
 
-
 %instructions
 instr = {'In this experiment, you will view a word paired with a picture.','Your task is to try and remember the picture paired with each word', 'You will then be tested on your memory for these pairings', 'Press any key to go on.'};
 PTBDisplayParagraph(instr,{'center',30},{'any'});
@@ -156,21 +146,21 @@ for Trial = thisBlock(1):thisBlock(end)
     
     word = theData.Study1.word{Trial}(3:end);
     PTBDisplayText(word,{'center'},{wordTime});
-    picture = [theData.Study2.pic{Trial}(3:end) '.jpg'];
+    picture = [theData.Study1.pic{Trial}(3:end) '.jpg'];
     
-    if (theData.Study2.cond(Trial)== 1);
+    if (theData.Study1.cond(Trial)== 1);
         channel= 1;
-    elseif (theData.Study2.cond(Trial)==2);
+    elseif (theData.Study1.cond(Trial)==2);
         channel = 2;
-    elseif (theData.Study2.cond(Trial)==3);
+    elseif (theData.Study1.cond(Trial)==3);
         channel = 4;
     end
     PTBDisplayPictures({picture}, {'center'}, {1}, {StimDur}, 'flag', channel, 0);
     trialOnset = GetSecs;
     
     %Record onset time and channel used
-    theData.Study2.trialOnset(Trial) = trialOnset;
-    theData.Study2.channel(Trial) = channel;
+    theData.Study1.trialOnset(Trial) = trialOnset;
+    theData.Study1.channel(Trial) = channel;
     
     save([subdir '/' saveName '.mat'],'theData','theList')
     
@@ -220,7 +210,7 @@ end
 PTBDisplayPictures({'fix.jpg'}, {'center'}, {1}, {longfixTime}, 'flag');
  
 %% Test
-getReady = {['Get Ready: Test Block #' num2str(block)],'Face - Scene', 'Press any key to start.'};
+getReady = {['Get Ready: Test Block #' num2str(block)],'Face - Scene - Object', 'Press any key to start.'};
 PTBDisplayParagraph(getReady,{'center',30},{'any'});
 PTBDisplayBlank({.3},'Blank');
 PTBDisplayPictures({'fix.jpg'}, {'center'}, {1}, {fixTime}, 'flag');
@@ -264,7 +254,7 @@ end
 
 
 %% Validation 2AFC task
-getReady = {['Get Ready: Specific Test Block #' num2str(block)],'Face - Scene', 'Press any key to start.'};
+getReady = {['Get Ready: Specific Test Block #' num2str(block)],'Face - Scene - Object', 'Press any key to start.'};
 PTBDisplayParagraph(getReady,{'center',30},{'any'});
 PTBDisplayBlank({.3},'Blank');
 PTBDisplayPictures({'fix.jpg'}, {'center'}, {1}, {fixTime}, 'flag');
